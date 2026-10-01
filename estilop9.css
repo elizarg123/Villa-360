@@ -1,0 +1,1052 @@
+/* ==========================================
+   VILLA360
+   VILLA DE ALLENDE - TESOROS VIVOS
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFF8E7;
+    color: #3E2923;
+    line-height: 1.6;
+}
+
+
+/* ==========================================
+   ENCABEZADO
+========================================== */
+
+.encabezado {
+    background: #8B0000;
+    color: white;
+
+    min-height: 135px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+
+    text-align: center;
+
+    padding: 25px;
+}
+
+
+.logo {
+    width: 90px;
+    height: 90px;
+
+    border: 3px solid #FFD98A;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 17px;
+
+    letter-spacing: 1px;
+}
+
+
+.logo span {
+    color: #FFD98A;
+}
+
+
+.titulo-header h1 {
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+
+.titulo-header p {
+    color: #FFD98A;
+    font-size: 18px;
+}
+
+
+/* ==========================================
+   CONTENEDOR
+========================================== */
+
+.contenedor {
+    width: 88%;
+    max-width: 1150px;
+
+    margin: auto;
+
+    padding: 45px 0 60px;
+}
+
+
+/* ==========================================
+   BIENVENIDA
+========================================== */
+
+.bienvenida {
+    text-align: center;
+
+    max-width: 850px;
+
+    margin: 0 auto 50px;
+
+    padding: 20px;
+}
+
+
+.etiqueta {
+    color: #B8860B;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    font-size: 14px;
+
+    margin-bottom: 8px;
+}
+
+
+.bienvenida h2 {
+    color: #8B0000;
+
+    font-size: 44px;
+
+    margin-bottom: 15px;
+}
+
+
+.texto-bienvenida {
+    max-width: 700px;
+
+    margin: auto;
+
+    color: #66544C;
+
+    font-size: 18px;
+}
+
+
+/* ==========================================
+   PRESENTACIÓN
+========================================== */
+
+.presentacion {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 22px;
+
+    box-shadow: 0 10px 30px rgba(75, 40, 25, 0.12);
+
+    margin-bottom: 45px;
+}
+
+
+.imagen-presentacion img {
+    width: 100%;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+}
+
+
+.texto-presentacion {
+    padding: 10px;
+}
+
+
+.pequeno-titulo {
+    color: #B8860B;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    font-size: 14px;
+}
+
+
+.texto-presentacion h2 {
+    color: #8B0000;
+
+    font-size: 34px;
+
+    margin: 10px 0 18px;
+}
+
+
+.texto-presentacion p {
+    color: #5C4941;
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
+}
+
+
+/* ==========================================
+   INFORMACIÓN
+========================================== */
+
+.informacion {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-bottom: 65px;
+}
+
+
+.info-card {
+    background: white;
+
+    text-align: center;
+
+    padding: 28px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+
+    transition: 0.3s;
+}
+
+
+.info-card:hover {
+    transform: translateY(-6px);
+}
+
+
+.info-card .icono {
+    font-size: 42px;
+
+    margin-bottom: 10px;
+}
+
+
+.info-card h3 {
+    color: #8B0000;
+
+    font-size: 22px;
+
+    margin-bottom: 8px;
+}
+
+
+.info-card p {
+    color: #66544C;
+
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   TÍTULOS DE SECCIONES
+========================================== */
+
+.titulo-seccion {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.titulo-seccion h2 {
+    color: #8B0000;
+
+    font-size: 34px;
+
+    margin-bottom: 8px;
+}
+
+
+.titulo-seccion > p:last-child {
+    color: #66544C;
+}
+
+
+/* ==========================================
+   TARJETAS DEL MENÚ
+   ESTAS QUEDAN ANTES DEL FORMULARIO
+========================================== */
+
+.explora {
+    margin-bottom: 65px;
+}
+
+
+.categorias {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.categoria {
+    min-height: 220px;
+
+    background: white;
+
+    text-decoration: none;
+
+    color: #3E2923;
+
+    padding: 30px 25px;
+
+    border-radius: 20px;
+
+    border-bottom: 5px solid #8B0000;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+
+    text-align: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    transition: all 0.3s ease;
+}
+
+
+.categoria:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 30px rgba(75, 40, 25, 0.18);
+
+    background: #FFFDF7;
+}
+
+
+.categoria-icono {
+    font-size: 50px;
+
+    margin-bottom: 13px;
+}
+
+
+.categoria h3 {
+    color: #8B0000;
+
+    font-size: 23px;
+
+    margin-bottom: 8px;
+}
+
+
+.categoria p {
+    color: #66544C;
+
+    font-size: 15px;
+}
+
+
+/* ==========================================
+   FORMULARIO
+========================================== */
+
+.formulario {
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 22px;
+
+    box-shadow: 0 10px 30px rgba(75, 40, 25, 0.12);
+
+    margin-bottom: 65px;
+}
+
+
+.formulario form {
+    max-width: 850px;
+
+    margin: auto;
+}
+
+
+.campo {
+    margin-bottom: 18px;
+}
+
+
+.campo label {
+    display: block;
+
+    color: #5C4941;
+
+    font-weight: bold;
+
+    margin-bottom: 7px;
+}
+
+
+.campo input {
+    width: 100%;
+
+    padding: 13px 15px;
+
+    border: 1px solid #D8C6B5;
+
+    border-radius: 10px;
+
+    background: #FFFDF8;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+.campo input:focus {
+    border-color: #8B0000;
+
+    box-shadow: 0 0 0 2px rgba(139, 0, 0, 0.08);
+}
+
+
+.formulario button {
+    display: block;
+
+    margin: 25px auto 0;
+
+    padding: 13px 35px;
+
+    background: #8B0000;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.formulario button:hover {
+    background: #5C0000;
+
+    transform: translateY(-2px);
+}
+
+
+/* ==========================================
+   TABLA
+   QUEDA AL FINAL DEL CONTENIDO
+========================================== */
+
+.tabla-seccion {
+    margin-bottom: 45px;
+}
+
+
+.tabla-contenedor {
+    width: 100%;
+
+    overflow-x: auto;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+}
+
+
+.tabla {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+}
+
+
+.tabla th {
+    background: #8B0000;
+
+    color: white;
+
+    padding: 16px;
+
+    text-align: center;
+}
+
+
+.tabla td {
+    padding: 15px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #E6D8CB;
+
+    color: #5C4941;
+}
+
+
+.tabla tr:hover td {
+    background: #FFF3D6;
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+    background: #5C0000;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px;
+}
+
+
+footer p:first-child {
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+
+
+footer p:last-child {
+    color: #FFD98A;
+}
+
+
+/* ==========================================
+   PÁGINAS INTERNAS
+========================================== */
+
+.pagina {
+    width: 88%;
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    padding: 40px 0 60px;
+}
+
+
+.volver {
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #8B0000;
+
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    padding: 10px 18px;
+
+    border: 2px solid #8B0000;
+
+    border-radius: 25px;
+
+    transition: 0.3s;
+}
+
+
+.volver:hover {
+    background: #8B0000;
+
+    color: white;
+}
+
+
+.titulo-pagina {
+    text-align: center;
+
+    margin-bottom: 45px;
+}
+
+
+.titulo-pagina span {
+    color: #B8860B;
+
+    font-weight: bold;
+
+    letter-spacing: 3px;
+}
+
+
+.titulo-pagina h2 {
+    color: #8B0000;
+
+    font-size: 42px;
+
+    margin: 5px 0 10px;
+}
+
+
+.titulo-pagina p {
+    max-width: 700px;
+
+    margin: auto;
+
+    color: #66544C;
+
+    font-size: 17px;
+}
+
+
+.tarjetas-contenido {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+
+
+.tarjeta-info {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 18px;
+
+    border-left: 6px solid #8B0000;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+
+    transition: 0.3s;
+}
+
+
+.tarjeta-info:hover {
+    transform: translateY(-5px);
+}
+
+
+.icono-grande {
+    font-size: 42px;
+
+    margin-bottom: 12px;
+}
+
+
+.tarjeta-info h3 {
+    color: #8B0000;
+
+    font-size: 23px;
+
+    margin-bottom: 10px;
+}
+
+
+.tarjeta-info p {
+    color: #5C4941;
+}
+
+
+/* ==========================================
+   HISTORIA
+========================================== */
+
+.contenido-historia {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.bloque-info {
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 25px;
+
+    border-radius: 18px;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+}
+
+
+.numero {
+    min-width: 55px;
+
+    height: 55px;
+
+    border-radius: 50%;
+
+    background: #8B0000;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+
+.bloque-info h3 {
+    color: #8B0000;
+
+    margin-bottom: 5px;
+}
+
+
+/* ==========================================
+   FRASE
+========================================== */
+
+.frase {
+    margin-top: 45px;
+
+    background: #8B0000;
+
+    color: white;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 18px;
+}
+
+
+.frase p {
+    font-size: 22px;
+
+    font-style: italic;
+}
+
+
+/* ==========================================
+   DISEÑO PARA TABLET
+========================================== */
+
+@media (max-width: 850px) {
+
+    .presentacion {
+        grid-template-columns: 1fr;
+    }
+
+
+    .informacion {
+        grid-template-columns: 1fr;
+    }
+
+
+    .categorias {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* ==========================================
+   DISEÑO PARA CELULAR
+========================================== */
+
+@media (max-width: 600px) {
+
+    .encabezado {
+        flex-direction: column;
+
+        padding: 20px;
+    }
+
+
+    .titulo-header h1 {
+        font-size: 23px;
+    }
+
+
+    .titulo-header p {
+        font-size: 16px;
+    }
+
+
+    .contenedor {
+        width: 92%;
+
+        padding-top: 30px;
+    }
+
+
+    .bienvenida h2 {
+        font-size: 34px;
+    }
+
+
+    .texto-bienvenida {
+        font-size: 16px;
+    }
+
+
+    .presentacion {
+        padding: 20px;
+    }
+
+
+    .imagen-presentacion img {
+        height: 250px;
+    }
+
+
+    .texto-presentacion h2 {
+        font-size: 28px;
+    }
+
+
+    .categorias {
+        grid-template-columns: 1fr;
+    }
+
+
+    .categoria {
+        min-height: 190px;
+    }
+
+
+    .formulario {
+        padding: 25px 20px;
+    }
+
+
+    .tabla {
+        min-width: 700px;
+    }
+
+
+    .tarjetas-contenido {
+        grid-template-columns: 1fr;
+    }
+
+
+    .titulo-pagina h2 {
+        font-size: 34px;
+    }
+
+
+    .bloque-info {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+}
+/* ==========================================
+   LUGARES
+========================================== */
+
+.lugares-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 65px;
+}
+
+
+.lugar-card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+
+    display: flex;
+    gap: 22px;
+    align-items: flex-start;
+
+    box-shadow: 0 8px 25px rgba(75, 40, 25, 0.10);
+
+    border-left: 6px solid #8B0000;
+
+    transition: 0.3s;
+}
+
+
+.lugar-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 14px 30px rgba(75, 40, 25, 0.16);
+}
+
+
+.lugar-icono {
+    min-width: 65px;
+    height: 65px;
+
+    border-radius: 50%;
+
+    background: #FFF3D6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 32px;
+}
+
+
+.lugar-contenido {
+    flex: 1;
+}
+
+
+.lugar-tipo {
+    color: #B8860B;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 1.5px;
+}
+
+
+.lugar-contenido h3 {
+    color: #8B0000;
+
+    font-size: 23px;
+
+    margin: 6px 0 10px;
+}
+
+
+.lugar-contenido p {
+    color: #5C4941;
+
+    font-size: 15px;
+
+    margin-bottom: 18px;
+}
+
+
+.boton-mapa {
+    display: inline-block;
+
+    padding: 9px 17px;
+
+    background: #8B0000;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+.boton-mapa:hover {
+    background: #5C0000;
+}
+
+
+/* ==========================================
+   MAPA
+========================================== */
+
+.mapa-seccion {
+    margin-top: 20px;
+}
+
+
+.mapa-contenedor {
+    width: 100%;
+
+    background: white;
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0 10px 30px rgba(75, 40, 25, 0.12);
+}
+
+
+.mapa-contenedor iframe {
+    display: block;
+
+    width: 100%;
+
+    border-radius: 15px;
+}
+
+
+/* ==========================================
+   LUGARES - CELULAR
+========================================== */
+
+@media (max-width: 700px) {
+
+    .lugares-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lugar-card {
+        flex-direction: column;
+
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .lugar-contenido {
+        width: 100%;
+    }
+
+    .mapa-contenedor iframe {
+        height: 350px;
+    }
+
+}
